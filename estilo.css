@@ -1,0 +1,45 @@
+
+body 
+{
+  background-image: url("IMG/tetris2.jpg");           
+  background-size: contain;
+  height: 700px;
+  background-color: black; 
+  font-family: 'Goldman', cursive;
+}       
+
+p
+{
+    text-align: center;
+    color: red;
+    font-family: 'Goldman', cursive;
+}
+
+#score{
+    display: inline-block;
+}
+div{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+canvas{
+    display: block;
+    margin:0 auto;
+}
+
+
+.lpeq
+{
+    color: red;
+    font-size: 0.9em;    
+    padding-bottom: 15px;
+}
+
+.score
+{
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
